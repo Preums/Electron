@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Preums Electron (with photon) first try</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="photon/css/photon.css">
+
+    <!-- Electron Javascript -->
+    <script src="app.js" charset="utf-8"></script>
+  </head>
+
+  <body>
+    <!-- Wrap your entire app inside .window -->
+    <div class="window">
+	  <div class="window-content">
+	    <div class="pane-group">
+		<div class="pane-sm sidebar">
+			<img src="photon/img/preumskat.jpg" alt="Preums icon" />
+		</div>
+		<div class="pane">
+			<h1>Welcome</h1>
+			<p>
+				You are in front of my first electron try
+				 <span class="icon icon-thumbs-up"></span>
+			</p>
+			<p>
+				It is actually: <span id="time"></span>
+				 <span class="icon icon-clock"></span>
+			</p>
+
+		</div>
+	    </div>
+	  </div>
+	  <footer class="toolbar toolbar-footer">
+	    <h1 class="title">copyright by Preums</h1>
+	  </footer>
+    </div>
+</div>
+<script src="clock.js"></script>
+  </body>
+</html>
